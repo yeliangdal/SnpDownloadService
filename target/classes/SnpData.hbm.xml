@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.snpData.model">
+    <class name="SnpData" table="raw_snp_data_file">
+		
+		<id name="id" type="long" column="id">
+        	<generator class="native"/>
+        </id>
+        <property name="profile_id" type="long" column="profile_id"/>
+        <property name="s3key_name" type="string" column="s3key_name"/>
+        <property name="s3bucket_name" type="string" column="s3bucket_name"/>
+    </class>
+</hibernate-mapping>
