@@ -27,6 +27,7 @@ public class AWSS3DownloadUtil {
 	private AmazonS3 s3client;
 	
 	//constructor
+	//The credentials are invalid, change those to your s3 credentials
 	public AWSS3DownloadUtil(){
 		AWSCredentials credentials = new BasicAWSCredentials(
 				"AKIAJZVE6ONMTU6FNJ4Q", 
