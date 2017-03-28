@@ -1,14 +1,14 @@
 # SnpDownloadService
 For Kate@Athletigen
 
-##Built with
+## Built with
 * Hibernate
 * AWS s3 storage
 
-##What does it do
+## What does it do
 Download a file from MySQL DB by its primary key, retrieve a AWS S3 path from the query and download a file according to the S3 path
 
-##Usage
+## Usage
 * Download the folder to local drive
 ```
 git clone https://github.com/yeliangdal/SnpDownloadService.git
