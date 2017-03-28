@@ -30,8 +30,8 @@ public class AWSS3DownloadUtil {
 	//The credentials are invalid, change those to your s3 credentials
 	public AWSS3DownloadUtil(){
 		AWSCredentials credentials = new BasicAWSCredentials(
-				"AKIAJZVE6ONMTU6FNJ4Q", 
-				"yefAZtqG1Lf80F+dxzcJEhuQ5XElxwnQUfRHxGLV");
+				"updateme", 
+				"updateme");
 		
 		this.s3client = new AmazonS3Client(credentials);
 	}
